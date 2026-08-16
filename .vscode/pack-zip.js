@@ -80,5 +80,6 @@ export default async function packZip() {
         zip.file(join(root, file), readFileSync(join(folder, file)));
       }
     });
+
   }
 }
